@@ -1,0 +1,8 @@
+{
+  "policies": {
+    "SYN Flood": { "action": "drop", "rate_limit": null },
+    "ICMP Flood": { "action": "rate-limit", "rate_limit": "500pps" },
+    "UDP Flood": { "action": "rate-limit", "rate_limit": "1kpps" },
+    "HTTP Flood": { "action": "redirect", "target": "scrubber" }
+  }
+}

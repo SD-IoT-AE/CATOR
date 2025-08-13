@@ -1,0 +1,18 @@
+{
+  "datasets": {
+    "CICIoT2023": {
+      "path": "datasets/CICIoT2023/",
+      "train_split": 0.8,
+      "resampling": {
+        "HTTP Flood": 1.05,
+        "SlowLoris": 1.30,
+        "ICMP Flood": -0.28,
+        "SYN Flood": -0.23
+      }
+    },
+    "ToN_IoT": {
+      "path": "datasets/ToN_IoT/",
+      "train_split": 0.8
+    }
+  }
+}

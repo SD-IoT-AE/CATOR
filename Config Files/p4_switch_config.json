@@ -1,0 +1,14 @@
+{
+  "switches": [
+    {
+      "id": "P4-SW-1",
+      "grpc_addr": "127.0.0.1:50051",
+      "fcstd_table_size": 1024,
+      "feature_set": [
+        "PTPW", "BPFW", "IPD", "FER", "FPS", "SAPR", "TPW",
+        "BWU", "FA", "TPR", "PIF", "TTLV", "RTS", "PER",
+        "CDP", "ATD", "URS", "ACPC", "IPF", "FPH", "BPP"
+      ]
+    }
+  ]
+}
