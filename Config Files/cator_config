@@ -1,0 +1,18 @@
+{
+  "entropy_thresholds": {
+    "theta_min": 0.05,
+    "theta_max": 0.40
+  },
+  "dtw": {
+    "min_window": 1,
+    "max_window": 10,
+    "delta": 1
+  },
+  "dynex": {
+    "adaptation_threshold": 0.5,
+    "alpha": 0.2
+  },
+  "acm": {
+    "local_threshold": 0.7
+  }
+}
